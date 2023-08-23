@@ -1,4 +1,18 @@
 
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .card-title{
+        font-size: 15px!important;
+    }
+    .mobile {
+        margin: 5px;
+    }
+  }
 
 .nav-link img {
     width: 40px;
@@ -72,7 +86,7 @@
 
     top: 0px;
     position: relative;
-    width: 30px;
+    width: 29px;
 
 }
 
@@ -95,7 +109,7 @@
     background-color: white;
     position: absolute;
     top: 50%;
-    left: -33px;
+    left: -7px;
     transform: translate(0, -50%);
 
     
@@ -113,7 +127,7 @@
     background-color: white;
     position: absolute;
     top: 50%;
-    right: -33px;
+    right: 0px;
     transform: translate(0, -50%);
 
 }

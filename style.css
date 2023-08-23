@@ -1,7 +1,43 @@
+
+
 .nav-link img {
     width: 40px;
     height: 40px;
     border-radius: 50px;
+}
+
+.UserImg::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    background-color: #19cb98;
+    position: absolute;
+    bottom: 10px;
+    right: 3px;
+    border: 2px solid white;
+}
+
+.NotificationImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotificationImg::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    background-color: #754ffe;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    border: 2px solid white;
 }
 
 .bg-lilla {
@@ -12,4 +48,92 @@
 .bg-grigio {
 
     background-color: #F5F4F8;
+}
+.UserCard {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.d-flex.align-items-center svg{
+
+    margin-right: 12px;
+}
+
+.Advance {
+
+    top: -3px;
+    position: relative;
+    width: 30px;
+}
+
+.Intermediate {
+
+    top: 0px;
+    position: relative;
+    width: 30px;
+
+}
+
+.stars {
+
+    color: rgb(255, 170, 70);
+}
+.LeftArrow,.RightArrow svg {
+    color: black
+   
+}
+.LeftArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    border:1px solid rgb(0 0 0 / 0.1);
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: -33px;
+    transform: translate(0, -50%);
+
+    
+}
+
+.RightArrow {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    border:1px solid rgb(0 0 0 / 0.1);
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: -33px;
+    transform: translate(0, -50%);
+
+}
+
+.IconsHeader {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeeda;
+    margin-right: 10px;
+}
+.IconsHeader svg {
+    color: #c28135;
+}
+
+.card-title {
+   
+    font-size: 17px;
 }
